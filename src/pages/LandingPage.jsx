@@ -16,7 +16,7 @@ function LandingPage() {
       timeLine.to(".pre-loader > .overlay", { top: "50%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "25%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "0", delay: 0.5 });
-      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "75%" });
+      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "50%" });
       timeLine.set(".pre-loader", { "z-index": -20 });
 
       timeLine.fromTo("nav", { y: -100 }, { y: 0, opacity: 1 });
