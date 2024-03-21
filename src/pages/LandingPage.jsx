@@ -16,7 +16,7 @@ function LandingPage() {
       timeLine.to(".pre-loader > .overlay", { top: "50%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "25%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "0", delay: 0.5 });
-      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "50%" });
+      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "52%" });
       timeLine.set(".pre-loader", { "z-index": -20 });
 
       timeLine.fromTo("nav", { y: -100 }, { y: 0, opacity: 1 });
@@ -63,20 +63,32 @@ function LandingPage() {
         <nav className=" flex justify-center items-center gap-4 p-4 md:py-8 md:px-4 lg:p-12 opacity-0">
           <img className="w-[120px]" src={LogoImage} alt="logo" />
           <div className="hidden md:flex gap-4 lg:gap-8 lg:mx-16 xl:mx-20">
-            <a className="hover:underline" href="#">
+            <a
+              className="underline hover:underline hover:underline-offset-4 hover:decoration-2"
+              href="#"
+            >
               Home
             </a>
-            <a className="hover:underline" href="#">
+            <a
+              className="underline hover:underline hover:underline-offset-4 hover:decoration-2"
+              href="#"
+            >
               Shop
             </a>
-            <a className="hover:underline" href="#">
+            <a
+              className="underline hover:underline hover:underline-offset-4 hover:decoration-2"
+              href="#"
+            >
               Contact
             </a>
-            <a className="hover:underline" href="#">
+            <a
+              className="underline hover:underline hover:underline-offset-4 hover:decoration-2"
+              href="#"
+            >
               Testimonials
             </a>
           </div>
-          <button className="bg-black text-white py-2 px-4 hidden md:inline-block rounded transition-all duration-700 hover:bg-gray-300 hover:text-black">
+          <button className="bg-black text-white py-2 px-4 hidden md:inline-block rounded transition-all duration-300 hover:bg-gray-300 hover:text-black">
             Let's work together
           </button>
         </nav>
@@ -137,7 +149,7 @@ function LandingPage() {
               <span>we design workspaces at curved.</span>
             </p>
 
-            <button className="cta opacity-0 font-bold md:font-normal cursor-pointer hover:underline">
+            <button className="cta opacity-0 font-bold md:font-normal cursor-pointer underline hover:underline hover:underline-offset-4 hover:decoration-2">
               Let's work together
             </button>
           </div>
