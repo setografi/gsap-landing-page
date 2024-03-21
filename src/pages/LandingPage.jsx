@@ -16,7 +16,7 @@ function LandingPage() {
       timeLine.to(".pre-loader > .overlay", { top: "50%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "25%", delay: 0.5 });
       timeLine.to(".pre-loader > .overlay", { top: "0", delay: 0.5 });
-      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "50%" });
+      timeLine.to(".pre-loader", { width: "80vw", left: 0, top: "75%" });
       timeLine.set(".pre-loader", { "z-index": -20 });
 
       timeLine.fromTo("nav", { y: -100 }, { y: 0, opacity: 1 });
@@ -81,12 +81,12 @@ function LandingPage() {
           </button>
         </nav>
         <header>
-          <div className="first-row flex px-4 pt-2 pb-0 md:p-4 mt-10 md:mt-0 justify-center md:justify-start items-center gap-4 md:gap-8 lg:gap-12 text-center md:text-left md:pt-8 lg:pt-16">
+          <div className="first-row flex px-4 pt-2 pb-0 md:p-4 mt-5 md:mt-0 justify-center md:justify-start items-center gap-4 md:gap-8 lg:gap-12 text-center md:text-left md:pt-8 lg:pt-16">
             <p className="bold-text font-bold text-3xl md:text-5xl lg:text-6xl xl:text-8xl opacity-0">
               The Possibilities
             </p>
 
-            <p className="copy font-medium text-base hidden md:flex md:flex-col opacity-0">
+            <p className="copy font-normal md:font-medium text-base hidden md:flex md:flex-col opacity-0">
               <span>We believe that workspaces</span>
               <span>should be friendly and convenient.</span>
               <span>Here is an invitation into our how</span>
